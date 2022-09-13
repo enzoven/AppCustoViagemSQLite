@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCustoViagem.View.Formulario"
+             Title="Novo Pedágio"
+             BackgroundImage="fundo2.jpeg">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Text = " Salvar "  Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+     
+
+<ContentPage.Content>
+        <StackLayout>
+           <Label Text="Localização:" />
+            <Entry x:Name="txt_localizacao" />
+            <Label Text="Valor:" />
+            <Entry x:Name="txt_valor" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
